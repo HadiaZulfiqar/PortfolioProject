@@ -155,3 +155,6 @@ join portfolioProject.dbo.covidVaccinations$ as v
 	on c.location=v.location
 	and c.date= v.date
 where c.continent is not NULL
+
+SELECT *
+FROM PercentPopulationVaccinated
